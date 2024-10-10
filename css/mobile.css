@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Thin.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-ExtraLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-SemiBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-ExtraBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareNeoBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeoHeavy';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeoLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+}
+
+#wrapper{ max-width: 1920px; margin: 0 auto; min-width: 320px; font-family:'Apple SD Gothic Neo' ;}
+
+.section1{}
+.section1 .wrap{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(../images/section1_background.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 130px;
+    display: flex;
+}
+.section1 .wrap .left{
+    width: 50%;
+}
+.section1 .wrap .left .title{
+    display: flex;
+    margin-bottom: 90px;
+}
+.section1 .wrap .left .title span{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 800;
+}
+.section1 .wrap .left .title h1{
+    width: 270px;
+}
+.section1 .wrap .left .title h1 img{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(282deg) brightness(111%) contrast(101%);
+}
+.section1 .wrap .left .goal{}
+.section1 .wrap .left .goal h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.section1 .wrap .left .goal p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    width: 70%;
+}
+.section1 .wrap .right{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section1 .wrap .right img{
+    width: 500px;
+}
+.section1 .wrap .right button{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin-top: auto;
+    margin-right: 20px;
+    font-size: 23px;
+    border-radius: 6px;
+}
+.section1 .wrap .right button a{
+    color: #fff;
+}
+
+/* section2 */
+.section2{
+    color: #fff;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(../images/section2_background);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.section2 .wrap{
+    display: flex;
+    padding: 70px 50px;
+    justify-content: center;
+    margin-left: 80px;
+}
+.section2 .wrap .left{
+    width: 40%;
+    border-right: 1px solid #6d6d6d;
+}
+.section2 .wrap .left h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+.section2 .wrap .left .font{
+    margin-bottom: 120px;
+}
+.section2 .wrap .left .font h3{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section2 .wrap .left .font p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-right: 70px;
+}
+.section2 .wrap .left .color{}
+.section2 .wrap .left .color h3{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section2 .wrap .left .color p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-right: 70px;
+}
+.section2 .wrap .middle{
+    padding-top: 80px;
+    margin: 0 38px;
+    width: 30%;
+}
+.section2 .wrap .middle .main{
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.section2 .wrap .middle .main h4{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.section2 .wrap .middle .main span:nth-child(2){
+    font-family: 'NanumSquareNeoBold';
+    font-size: 25px;
+}
+.section2 .wrap .middle .main span:nth-child(3){
+    font-family: 'NanumSquareNeo';
+    font-size: 20px;
+}
+.section2 .wrap .middle .sub{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.section2 .wrap .middle .sub h4{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.section2 .wrap .middle .sub span:nth-child(2){
+    font-family:  'NanumSquareNeoHeavy';
+    font-size: 20px;
+}
+.section2 .wrap .middle .sub span:nth-child(3){
+    font-weight: 'NanumSquareNeoBold';
+    font-size: 20px;
+}
+.section2 .wrap .middle .sub span:nth-child(4){
+    font-family: 'NanumSquareNeoLight';
+}
+.section2 .wrap .middle .color{
+    margin-top: 50px;
+}
+.section2 .wrap .middle .color h3{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section2 .wrap .middle .color .top{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.section2 .wrap .middle .color .top .white{
+    width: 96px ;
+    height: 53px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .wrap .middle .color .top .white span{
+    color: #000;
+}
+.section2 .wrap .middle .color .top .gray{
+    width: 96px ;
+    height: 53px;
+    background-color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .wrap .middle .color .top .gray span{}
+.section2 .wrap .middle .color .bottom{
+    display: flex;
+    gap: 30px;
+}
+.section2 .wrap .middle .color .bottom .black{
+    width: 96px ;
+    height: 53px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .wrap .middle .color .bottom .black span{
+    color: #ffffff;
+}
+.section2 .wrap .right{
+    border-left: 1px solid #6d6d6d;
+    padding: 70px 0px 0 38px;
+    width: 30%;
+}
+.section2 .wrap .right h3{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section2 .wrap .right p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 80%;
+}
+
+/* section3 */
+.section3{
+    background-color: #000;
+    color: #fff;
+}
+.section3 .wrap{
+    padding: 100px 130px;
+}
+.section3 .wrap .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.section3 .wrap .top h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.section3 .wrap .top p{
+    font-size: 15px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+.section3 .wrap .bottom{
+    position: relative;
+}
+.section3 .wrap .bottom .asis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.section3 .wrap .bottom .asis span{
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 90px;
+}
+.section3 .wrap .bottom .asis .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.section3 .wrap .bottom .asis .list p{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+.section3 .wrap .bottom .tobe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section3 .wrap .bottom .tobe span{
+    font-size: 18px;
+    font-weight: 800;
+    color: #EC3824;
+    margin-right: 90px;
+    text-wrap: nowrap;
+}
+.section3 .wrap .bottom .tobe .list{
+    display: flex;
+    gap: 30px;
+}
+.section3 .wrap .bottom .tobe .list p{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    text-align: center;
+}
+.section4{
+}
+.section4 .wrap{
+    padding: 70px 50px;
+    margin-left: 80px;
+}
+.section4 .wrap h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.section4 .wrap p{
+    margin-bottom: 80px;
+}
+.section4 .wrap .wireframe{
+    display: flex;
+
+}
+.section4 .wrap .wireframe img{
+    margin: 0 50px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* section5 */
+.section5{
+    border-top: 1px solid#000   ;
+}
+.section5 .wrap{
+    padding: 100px;
+}
+.section5 .wrap .top{}
+.section5 .wrap .top .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.section5 .wrap .top .first p{
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 60px;
+}
+.section5 .wrap .top .first img{
+    filter: drop-shadow(9px 14px 15px #969696);
+    border-radius: 16px;
+    width: 60%;
+}
+.section5 .wrap .top .second{
+    position: relative;
+    margin-bottom: 700px;
+}
+.section5 .wrap .top .second .left{
+    width: 480px;
+    border-radius: 16px;
+    position: absolute;
+    left: 0;
+    filter: drop-shadow(-16px 17px 15px #969696);
+}
+.section5 .wrap .top .second p{
+    position: absolute;
+    right: 530px;
+    top: 400px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.section5 .wrap .top .second .right{
+    border-radius: 16px;
+    filter: drop-shadow(9px 14px 15px #969696);
+    position: absolute;
+    top: 100px;
+    right: 190px;
+    width: 20%;
+}
+.section5 .wrap .bottom{
+    position: relative;
+    margin-bottom:1200px;
+}
+.section5 .wrap .bottom img{
+    border-radius: 16px;
+    filter: drop-shadow(-11px 17px 15px #969696);
+    position: absolute;
+    border-top-color: 40px;
+    width: 380px;
+}
+.section5 .wrap .bottom p{
+    position: absolute;
+    right: 35%;
+    font-size: 30px;
+    font-weight: 800;
+    top: 400px;
+}
+
+
+
