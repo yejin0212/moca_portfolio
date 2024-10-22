@@ -1,4 +1,4 @@
-@media (min-width:1200px){
+@media (min-width:700px)and (max-width:1199px){
     @font-face {
         font-family: 'Apple SD Gothic Neo';
         font-weight: 100;
@@ -72,9 +72,9 @@
              url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.ttf') format('truetype');
     }
     @font-face {
-        font-family: 'NanumSquareNeoBold';
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+        font-family: 'MaruBuri';
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
     }
     @font-face {
         font-family: 'NanumSquareNeo';
@@ -82,28 +82,40 @@
         src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
     }
     @font-face {
-        font-family: 'NanumSquareNeoHeavy';
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf) format("truetype");
+        font-family: 'NanumSquareNeoBold';
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
     }
     @font-face {
-        font-family: 'NanumSquareNeoLight';
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
-        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+        font-family: 'NanumSquareNeoExtraBold';
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: 'MaruBuriExtraLight';
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
+    } 
+    
+    @font-face {
+        font-family: 'MaruBuriLight';
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
     }
     
-    #wrapper{ max-width: 1920px; margin: 0 auto; min-width: 320px; font-family:'Apple SD Gothic Neo' ;}
-    
+    #wrapper{ font-family:'Apple SD Gothic Neo' ; overflow: hidden;}
     .section1 .wrap{
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(../images/section1_background.jpg);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../images/section1_background.jpg);
         background-position: center center;
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
-        padding: 100px 130px;
+        padding: 100px 80px;
         display: flex;
+        flex-direction: column;
     }
     .section1 .wrap .left{
-        width: 50%;
+        width: 100%;
+        margin-bottom: 70px;
     }
     .section1 .wrap .left .title{
         display: flex;
@@ -118,68 +130,74 @@
         width: 270px;
     }
     .section1 .wrap .left .title h1 img{
+        width: 500px;
         filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(282deg) brightness(111%) contrast(101%);
     }
     .section1 .wrap .left .goal h2{
         color: #fff;
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 700;
         margin-bottom: 8px;
     }
     .section1 .wrap .left .goal p{
         color: #fff;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         line-height: 29px;
-        width: 70%;
+        width: 100%;
     }
     .section1 .wrap .right{
         display: flex;
-        margin-left: auto;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .section1 .wrap .right img{
-        width: 500px;
-    }
     .section1 .wrap .right button{
         border: 1px solid #fff;
-        padding: 10px 20px;
+        padding: 20px 0;
         margin-top: auto;
         margin-right: 20px;
         font-size: 23px;
         border-radius: 6px;
+        width: 100%;
+        order: 2;
     }
     .section1 .wrap .right button a{
         color: #fff;
     }
-    
+    .section1 .wrap .right img{
+        order: 1;
+        width: 80%;
+    }
+
     /* section2 */
     .section2{
         color: #fff;
         background-image:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(../images/section2_background);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
     }
     .section2 .wrap{
         display: flex;
         padding: 70px 50px;
         justify-content: center;
-        margin-left: 80px;
+        flex-direction: column;
     }
     .section2 .wrap .left{
-        width: 40%;
-        border-right: 1px solid #6d6d6d;
+        display: flex;
+        flex-direction: column;
     }
     .section2 .wrap .left h2{
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 65px;
     }
+    .section2 .wrap .ui{
+        display: flex;
+        gap: 50px;
+    }
     .section2 .wrap .left .font{
-        margin-bottom: 120px;
+        margin-bottom: 60px;
     }
     .section2 .wrap .left .font h3{
         font-size: 17px;
@@ -190,7 +208,6 @@
         font-size: 17px;
         font-weight: 300;
         line-height: 25px;
-        padding-right: 70px;
     }
     .section2 .wrap .left .color h3{
         font-size: 17px;
@@ -201,12 +218,12 @@
         font-size: 17px;
         font-weight: 300;
         line-height: 25px;
-        padding-right: 70px;
     }
     .section2 .wrap .middle{
-        padding-top: 80px;
-        margin: 0 38px;
-        width: 30%;
+        display: flex;
+    }
+    .section2 .wrap .middle .font{
+        width: 50%;
     }
     .section2 .wrap .middle .main{
         margin-bottom: 35px;
@@ -218,13 +235,17 @@
         font-size: 17px;
         font-weight: 700;
         margin-bottom: 8px;
+        color: #fff;
+        opacity: calc(0.7);
     }
     .section2 .wrap .middle .main span:nth-child(2){
-        font-family: 'NanumSquareNeoBold';
+        font-family: 'MaruBuri';
+        font-weight: 700;
         font-size: 25px;
     }
     .section2 .wrap .middle .main span:nth-child(3){
-        font-family: 'NanumSquareNeo';
+        font-family: 'NanumSquareNeoBold';
+        font-weight: 700;
         font-size: 20px;
     }
     .section2 .wrap .middle .sub{
@@ -236,25 +257,27 @@
         font-size: 17px;
         font-weight: 700;
         margin-bottom: 8px;
+        color: #fff;
+        opacity: calc(0.7);
     }
     .section2 .wrap .middle .sub span:nth-child(2){
-        font-family:  'NanumSquareNeoHeavy';
+        font-family: 'NanumSquareNeoExtraBold';
         font-size: 20px;
     }
     .section2 .wrap .middle .sub span:nth-child(3){
-        font-weight: 'NanumSquareNeoBold';
+        font-family: 'MaruBuriLight';
         font-size: 20px;
     }
     .section2 .wrap .middle .sub span:nth-child(4){
-        font-family: 'NanumSquareNeoLight';
-    }
-    .section2 .wrap .middle .color{
-        margin-top: 50px;
+        font-family: 'MaruBuriExtraLight';
+        font-size: 18px;
     }
     .section2 .wrap .middle .color h3{
         font-size: 17px;
         font-weight: 700;
         margin-bottom: 10px;
+        color: #fff;
+        opacity: calc(0.7);
     }
     .section2 .wrap .middle .color .top{
         display: flex;
@@ -269,16 +292,14 @@
         justify-content: center;
         align-items: center;
     }
-    .section2 .wrap .middle .color .top .white span{
-        color: #000;
-    }
     .section2 .wrap .middle .color .top .gray{
         width: 96px ;
         height: 53px;
-        background-color: #b3b3b3;
+        background-color: #F3F2E8;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #000;
     }
     .section2 .wrap .middle .color .bottom{
         display: flex;
@@ -287,18 +308,30 @@
     .section2 .wrap .middle .color .bottom .black{
         width: 96px ;
         height: 53px;
-        background-color: #000000;
+        background-color: #000;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .section2 .wrap .middle .color .bottom .black span{
-        color: #ffffff;
+    .section2 .wrap .middle .color .top .gray span{
+        color: #000;
+    }
+    .section2 .wrap .middle .color .top .white span{
+        color: #000;
+    }
+    .section2 .wrap .middle .color .bottom .white{
+        width: 96px ;
+        height: 53px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
     }
     .section2 .wrap .right{
-        border-left: 1px solid #6d6d6d;
-        padding: 70px 0px 0 38px;
-        width: 30%;
+        border-top: 1px solid #6d6d6d;
+        padding: 70px 0px 0 0;
+        margin-top: 50px;
     }
     .section2 .wrap .right h3{
         font-size: 17px;
@@ -309,7 +342,7 @@
         font-size: 17px;
         font-weight: 300;
         line-height: 25px;
-        width: 80%;
+        width: 100%;
     }
     
     /* section3 */
@@ -318,7 +351,7 @@
         color: #fff;
     }
     .section3 .wrap{
-        padding: 100px 130px;
+        padding: 70px 50px 0 50px;
     }
     .section3 .wrap .top{
         display: flex;
@@ -331,19 +364,22 @@
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 8px;
+        text-align: center;
     }
     .section3 .wrap .top p{
         font-size: 15px;
         font-weight: 400;
-        width: 50%;
         text-align: center;
         line-height: 25px;
     }
     .section3 .wrap .bottom{
         position: relative;
+        display: flex;
+        justify-content: center;
     }
     .section3 .wrap .bottom .asis{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 180px;
@@ -351,33 +387,29 @@
     .section3 .wrap .bottom .asis span{
         font-size: 18px;
         font-weight: 800;
-        margin-right: 90px;
+        margin: 0 auto 40px auto;
     }
     .section3 .wrap .bottom .asis .list{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 30px;
     }
     .section3 .wrap .bottom .asis .list p{
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         border: 1px solid #fff;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:50px;
     }
     .section3 .wrap .bottom .tobe{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        position: absolute;
-        top: 170px;
-        left: 50%;
-        transform: translateX(-50%);
     }
     .section3 .wrap .bottom .tobe span{
         font-size: 18px;
@@ -385,26 +417,29 @@
         color: #EC3824;
         margin-right: 90px;
         text-wrap: nowrap;
+        margin: 0 auto 40px auto;
     }
     .section3 .wrap .bottom .tobe .list{
         display: flex;
+        flex-direction: column;
         gap: 30px;
     }
     .section3 .wrap .bottom .tobe .list p{
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         background-color: #fff;
         color: #000;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 50px 50px;
+        padding: 0 30px;
         text-align: center;
     }
+
+    /* section4 */
     .section4 .wrap{
         padding: 70px 50px;
-        margin-left: 80px;
     }
     .section4 .wrap h2{
         font-size: 24px;
@@ -416,10 +451,11 @@
     }
     .section4 .wrap .wireframe{
         display: flex;
+        gap: 30px;
     
     }
     .section4 .wrap .wireframe img{
-        margin: 0 50px;
+        width: 30%;
         -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -432,72 +468,65 @@
         border-top: 1px solid#000   ;
     }
     .section5 .wrap{
-        padding: 100px;
+        padding: 70px 50px;
     }
-    .section5 .wrap .top{}
     .section5 .wrap .top .first{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 70px;
         margin-bottom: 40px;
     }
     .section5 .wrap .top .first p{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 800;
-        margin-right: 60px;
+        text-align: center;
+        margin-bottom: 50px;
     }
     .section5 .wrap .top .first img{
         filter: drop-shadow(9px 14px 15px #969696);
         border-radius: 16px;
-        width: 60%;
     }
     .section5 .wrap .top .second{
-        position: relative;
-        margin-bottom: 700px;
+        display: flex;
+        flex-direction: column;
     }
     .section5 .wrap .top .second .left{
-        width: 480px;
+        width: 680px;
         border-radius: 16px;
-        position: absolute;
-        left: 0;
         filter: drop-shadow(-16px 17px 15px #969696);
+        order: 2;
     }
     .section5 .wrap .top .second p{
-        position: absolute;
-        right: 580px;
-        top: 400px;
         font-size: 30px;
         font-weight: 800;
+        order: 1;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .section5 .wrap .top .second .right{
         border-radius: 16px;
         filter: drop-shadow(9px 14px 15px #969696);
-        position: absolute;
-        top: 100px;
-        right: 190px;
-        width: 20%;
+        order: 3;
+        margin-top: 60px;
+        width: 40%;
     }
     .section5 .wrap .bottom{
-        position: relative;
-        margin-bottom:1200px;
+        display: flex;
+        flex-direction: column;
     }
     .section5 .wrap .bottom img{
         border-radius: 16px;
         filter: drop-shadow(-11px 17px 15px #969696);
-        position: absolute;
-        border-top-color: 40px;
-        width: 380px;
+        order: 2;
+        margin-top: 50px;
     }
     .section5 .wrap .bottom p{
-        position: absolute;
-        right: 35%;
         font-size: 30px;
         font-weight: 800;
-        top: 400px;
+        order: 1;
+        margin-top: 80px;
+        text-align: center;
     }
-    
-    
-    
-    
 }
